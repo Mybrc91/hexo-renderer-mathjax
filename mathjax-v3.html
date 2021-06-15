@@ -1,0 +1,37 @@
+<script type="text/x-mathjax-config">
+
+    window.MathJax = {
+       tex: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            processEscapes: true,
+            autoload: {
+               color: [],
+               colorv2: ['color']
+            },
+            packages: {'[+]': ['noerrors']}
+        },
+        options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            ignoreHtmlClass: 'tex2jax_ignore',
+            processHtmlClass: 'tex2jax_process'
+        },
+        loader: {
+            load: ['[tex]/noerrors']
+        }
+    };
+
+    MathJax.Hub = {
+        Queue: function () {
+            var all = MathJax.Hub.getAllJax();
+            for (var i = 0; i < all.length; ++i){
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+            
+            
+            return MathJax.startup.promise;
+        }
+    };
+    
+    
+
+</script>

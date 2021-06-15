@@ -10,10 +10,15 @@ Add support of [MathJax](http://www.mathjax.org/) for [Hexo](http://hexo.io/).
 
 ## CONFIG
 
-If you want to customize the mathjax js src, Edit `_config.yml`,replace cdn url like below:
+If you want to customize the mathjax js src, Edit `_config.yml`,replace cdn url like below.:
 
     mathjax:
       cdn: 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js'
+      version: "v3"
+
+If you want to use mathjax 3.0+, add version config value equals "v3" ,else empty this value.
+
+Notice: Cdn config value and version config value  need to match each other. 
 
 
 ## Sample

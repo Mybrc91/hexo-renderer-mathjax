@@ -4,6 +4,8 @@ Clone from [phoenixcw](https://github.com/phoenixcw/hexo-renderer-mathjax) and u
 
 Add support of [MathJax](http://www.mathjax.org/) for [Hexo](http://hexo.io/).
 
+[![Npm Publish Status](https://github.com/Mybrc91/hexo-renderer-mathjax2/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Mybrc91/hexo-renderer-mathjax2/actions/workflows/npm-publish.yml) [![NPM version](https://badge.fury.io/js/hexo-renderer-mathjax2.svg)](https://www.npmjs.com/package/hexo-renderer-mathjax2)
+
 ## INSTALL
 
     $ npm install hexo-renderer-mathjax2 --save
